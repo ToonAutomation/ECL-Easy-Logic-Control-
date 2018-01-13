@@ -1,1 +1,14 @@
+Bit  | 7 6 5 4 3 2 1 0 | 7 6 5 4 | 3 2 1 0 | 7 6 5 4 3 2 1 0 | 7 6 5 4 3 2 1 0 | 
+     |     Command     |   Area  | Bit/Size|   Address Src   |   Address Des   |
+// Start Byte Level
+LD           | 1 Bit    Capacity 3 Byte
+LDNOT        | 1 Bit    
+OUT          | 1 Bit
+OUTNOT       | 1 Bit
+AND          | 1 Bit
+ANDNOT       | 1 Bit
+OR           | 1 Bit
+ORNOT        | 1 Bit
+MOV          | 1 Word
+MOVF         | 1 DWord
 
